@@ -1,0 +1,475 @@
+
+/*header*/
+.header{
+	padding-bottom: .12rem;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.head_top{
+	position: relative;
+    line-height: 1.2rem;
+    height: .38rem;
+    padding: 0.06rem .12rem 0;
+}
+.HT_left{
+	float: left;
+    height: .32rem;
+}
+.HT_left img{
+	display: block;
+    width: .20rem;
+    height: auto;
+}
+.HT_cent{
+	position: absolute;
+    width: 1.65rem;
+    height: .15srem;
+    left: 50%;
+    top: .12rem;
+    margin-left: -0.8rem;
+}
+.HT_cent img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.HT_right{
+	float: right;
+    height: .32rem;
+}
+.HT_right img{
+	display: block;
+    width: .19rem;
+    height: auto;
+}
+.head_bottom{
+	box-sizing: border-box;
+    display: block;
+    padding-left: .36rem;
+    margin: 0 auto;
+    width: 3.47rem;
+    height: .30rem;
+    border: 1px solid #999;
+    border-radius: .15rem;
+    line-height: .30rem;
+    font-size: .12rem;
+    color: #999;
+}
+/*center*/
+.center{
+	flex: 1;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: #f0f0f0;
+}
+.center_banner,.center_classify,.center_notice{
+    display: block;	
+}
+/*轮播图*/
+.center_banner{
+	height: 1.6rem;
+	display: flex;
+	position: relative;
+}
+.center_banner img{
+	width: 100%;
+}
+.center_banner .gang{
+	bottom: -0.15rem;
+}
+.center_banner .gang .swiper-pagination-bullet{
+	height: 0.03rem;
+	width: 0.2rem;
+	background-color: #a89e9e;
+	opacity: .5;
+	border-radius: 0;
+	margin-right:0.05rem;
+
+}
+.center_banner .gang .swiper-pagination-bullet-active{
+	background-color: #000000;
+	opacity: 1;
+}
+
+/*分类*/
+.center_classify{
+	background-color: #fff;
+    overflow: hidden;
+    padding-top: .2rem;
+    margin-top: 0;
+}
+.cClassify_ul li{
+    float: left;
+    width: 20%;
+    margin-bottom: .21rem;
+    text-align: center;
+    font-size: .12rem;
+    color: #333;
+    overflow: hidden;
+}
+.cClassify_ul li a{
+    display: inline-block;
+}
+.cClassify_ul li a img{
+	display: inline-block;
+    margin-bottom: .09rem;
+    width: 0.45rem;
+    height: .45rem;
+}
+.cClassify_ul li a span{
+    display: inline-block;
+    text-align: center;
+    font-size: .12rem;
+    line-height: .12rem;
+}
+/*通知*/
+.center_notice{
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 0;	
+}
+.cN_da{
+    padding: .13rem 0;
+    margin: 0 auto;
+    width: 3.51rem;
+    border-top: 1px solid #e8e8e8;
+    overflow: hidden;
+}
+.cN_da img{
+	float: left;
+    width: .49rem;
+    margin-right: .15rem;
+}
+.cN_da span{
+	float: left;
+	width: 80%;
+    line-height: .14rem;
+    overflow: hidden;
+    color: #d72245;
+    font-size: 0.14rem;
+}
+/*活动*/
+.cA_top{
+	margin-top: .12rem;
+    overflow: hidden;
+}
+.cA_top ul{
+    overflow: hidden;
+}
+.cA_top ul li{
+	position: relative;
+    float: left;
+    margin-right: .06rem;
+    width: 1.86rem;
+    height: 1.1rem;
+}
+.cA_top ul li a img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+}
+.CAT_lisL{
+	position: absolute;
+    width: 0.7rem;
+    right: .2rem;
+    top: .3rem;
+    z-index: 1;
+    overflow: hidden;
+}
+.CAT_lisL p{
+	width: 100%;
+    height: .20rem;
+    line-height: .20rem;
+    font-size: .12rem;
+    color: #000;
+    overflow: hidden;
+    text-align: center;
+}
+.CAT_lisL p:nth-child(2){
+    color: #d72245;
+}
+.CATL_sp{
+	display: inline-block;
+	border: 1px solid #000000;
+	width: .15rem;
+	height: .15rem;
+	border-radius: 50%;
+	line-height: .15rem;
+	font-size: 0.14rem;
+}
+.CAT_left ul li:last-child{
+	margin-right: 0;
+}
+
+.cA_bottom ul li{
+	width: 1.2rem;
+	height: 1.6rem;
+}
+.cA_bottom .CAT_lisL{
+    top: 0.9rem;
+}
+/*热销推荐*/
+.center_recommend{
+	background-color: #fff;
+    margin-top: .12rem;
+    overflow: hidden;
+}
+.center_recommend h2{
+	height: .42rem;
+    line-height: 0.42rem;
+    text-align: center;
+    font-size: .16rem;
+    color: #333;
+}
+/*热销推荐导航*/
+.CR_nav{
+	border-bottom: 1px solid #e8e8e8;
+}
+.CR_navUls{
+	display: flex;
+	overflow-x:scroll;
+	margin-right: .25rem;
+}
+.CR_navUls::-webkit-scrollbar { display: none }
+.CR_navUls li{
+    margin-left: .25rem;
+   	width: auto;
+   	float: left;
+    color: #666;
+    font-size: .14rem;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: .12rem;
+    border-bottom: 2px solid transparent;
+    flex-shrink: 0;
+}
+.CR_navUls li:nth-child(1){
+	border-bottom: 2px solid #333;
+}
+/*产品*/
+.CRP_uls{
+
+	overflow: hidden;
+}
+.CRP_uls li{
+	border-bottom: 1px solid #e8e8e8;
+    border-top: none;
+	position: relative;
+    padding: .2rem;
+    overflow: hidden;
+}
+.CRP_img{
+	display: block;
+	float: left;
+	width: 1.18rem;
+	height: 1.18rem;
+}
+.CRP_uls li a img{
+	width: 1.18rem;
+	height: 1.18rem;
+}
+.CRP_right{
+	width: 2.16rem;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left: .12rem;
+}
+.CRP_right a{
+	display: block;
+	height: .34rem;
+	font-size:.12rem; 
+	line-height: .14rem;
+}
+.CRPR_uls{
+	position: relative;
+    overflow: hidden;
+}
+.CRP_uls .CRP_right .CRPR_uls li{
+	float: left;
+	font-size: .12rem;
+	line-height: .16rem;
+	height: .16rem;
+	display: inline-block;
+	margin-right: .06rem;
+	padding: 0;
+	border: none;
+}
+.CRPR_uls li img{
+	width: .45rem;
+}
+.CRP_uls .CRP_right .CRPR_uls .CRPR_ulsLI{
+	background: #fff;
+    color: #d72245;
+    border: 1px solid #d72245;
+    padding: 0 .04rem;
+    box-sizing: border-box;
+}
+.CRPR_price{
+	position: absolute;
+    bottom: 0.35rem;
+}
+.CRPR_priceTop{
+	overflow: hidden;
+}
+.price_left{
+	display: block;
+	float: left;
+	font-size: .14rem;
+    color: #d72245;
+}
+.price_right{
+	display: block;
+	float: left;
+	font-size: .12rem;
+    color: #999;
+    margin-left: .1rem;
+    text-decoration: line-through;
+    margin-top: 0.02rem;
+}
+.CRPR_priceBot{
+	margin-top: .03rem;
+    font-size: .14rem;
+    color: #999;
+}
+.BotPrice{
+	margin-top: .03rem;
+    font-size: .12rem;
+    color: #999;
+}
+.CRPR_addCart{
+	position: absolute;
+    background-color: #1b1a19;
+    color: #fff;
+    text-align: center;
+	width: .9rem;
+    height: .35rem;
+    line-height: .35rem;
+    font-size: .14rem;
+    right: .2rem;
+    bottom: .35rem;
+}
+.CRP_uls li:nth-last-of-type(1){
+	height: .4rem;
+	font-size: .12rem;
+    line-height: .4rem;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+    border-top: none;
+    padding: 0;
+  
+}
+.CRP_uls li:nth-last-of-type(1) a{
+	  color: #999999;
+}
+/*美无止境微信等*/
+.center_social{
+	margin-top: .12rem;
+    overflow: hidden;
+    background-color: transparent;
+}
+.cS_title{
+	padding-top: .25rem;
+    height: .55rem;
+    background-color: #fff;
+}
+.cS_title img{
+	display: block;
+    margin: 0 auto .12rem;
+    width: 2.6rem;
+    height: auto;
+}
+.cS_title p{
+	font-size: .12rem;
+    color: #1b1a19;
+    text-align: center;
+}
+.cS_ul{
+	padding: 0 .12rem .12rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+.cS_ul li{
+	float: left;
+    width: 100%;
+    height: 0.84rem;
+    margin-bottom: .06rem;
+    background-color: #f0f0f0;
+}
+.CSUl_img1{
+	float: left;
+    margin-top: .12rem;
+    margin-left: .12rem;
+    width: .6rem;
+    height: auto;
+}
+.CSUl_img1 img,.CSUl_img2 img{
+	display: block;
+    width: 100%;
+}
+.cS_ul li span{
+	float: left;
+    margin-top: .2rem;
+    margin-left: .12rem;
+    font-size: .12rem;
+    line-height: .24rem;
+    color: #333;
+}
+.CSUl_img2{
+	float: right;
+    margin-top: .26rem;
+    margin-right: .12rem;
+    width: .9rem;
+    height: auto;
+}
+
+.cS_ul2{
+	padding: .25rem .12rem 0;
+    margin-top: .12rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.cS_ul2 li{
+	width: 1.8rem;
+    float: left;
+    margin-bottom: .25rem;
+}
+.cS_ul2 li:nth-child(2n){
+	float: right;
+	width: 1.6rem;
+}
+.cS_ul2 li img{
+	float: left;
+	
+	width: .3rem;
+    height: .3rem;
+    margin-right: .12rem;
+}
+.cS_ul2 li span{
+	float: left;
+    font-size: .12rem;
+    color: #999;
+}
+.cS_ul2 li span h6{
+	color: #333333;
+	font-size: .14rem;
+}
+/*汇率*/
+.center_parities{
+	margin-top: .12rem;
+	height: .4rem;
+	padding: 0 .12rem;
+    line-height: .4rem;
+    font-size: .14rem;
+    color: #333;
+    background-color: #fff;
+}
+.center_links{
+	margin-top: .12rem;
+}

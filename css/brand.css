@@ -1,0 +1,134 @@
+.header{
+	padding: .1rem;
+    border-bottom: 1px solid #e8e8e8;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+}
+.head_bottom{
+	display: block;
+	padding-left: .1rem;
+    height: .3rem;
+    line-height: .3rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    font-size: .12rem;
+    color: #999;
+}
+.head_bottom span:nth-child(2){
+	float: right;
+	padding-right: .16rem;
+	color: #999;
+}
+/*center*/
+.center{
+	flex: 1;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: #f0f0f0;
+}
+/*轮播图*/
+.center_banner{
+	display: flex;
+	position: relative;
+}
+.center_banner img{
+	width: 100%;
+	display: block;
+}
+.center_banner .gang{
+	bottom: 0.15rem;
+}
+.center_banner .gang .swiper-pagination-bullet{
+	height: 0.03rem;
+	width: 0.2rem;
+	background-color: #a89e9e;
+	opacity: .5;
+	border-radius: 0;
+	margin-right:0.05rem;
+
+}
+.center_banner .gang .swiper-pagination-bullet-active{
+	background-color: #000000;
+	opacity: 1;
+}
+/*推荐品牌*/
+.center_brands,.center_allBrands{
+	background-color: #fff;
+}
+.cB_title{
+	height: .45rem;
+    line-height: .45rem;
+    font-size: .16rem;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+}
+.cB_item{
+	overflow: hidden;
+}
+.cB_item a{
+	display:block;
+	position: relative;
+	float: left;
+    width: 25%;
+    box-sizing: border-box;
+    border-right: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    height: .5rem;
+}
+.cB_item a img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+    display: block;
+	max-width: 90%;
+	margin:auto;
+    max-height: .5rem;
+
+}
+/*所有品牌*/
+.center_allBrands{
+	margin-top: .12rem;
+}
+.cAB_nav{
+    width: .2rem;
+    text-align: center;
+    float: right;
+}
+.cAB_nav a{
+	font-size: .12rem;
+	color: #333;
+	display: block;
+	margin-bottom: .08rem;
+}
+.cAB_itemA{
+    padding: 0 .2rem 0 .1rem;
+}
+.cABI_Letter{
+	height: .3rem;
+    border-top: 1px solid #e8e8e8;
+    font-size: .14rem;
+    font-weight: 600;
+    line-height: .3rem;
+    color: #333;
+}
+.cAB_itemA ul li{
+	height: .3rem;
+    border-top: 1px solid #e8e8e8;
+    font-size: .12rem;
+    line-height: .3rem;
+}
+/*footer*/
+.footer_uls li:nth-child(3) span{
+	width: .266rem;
+    height: 0.276rem;
+    margin: .01rem auto;
+    border-radius: 50%;
+    font-size: .25rem;
+    background-color: #333333;
+    color: white;
+	padding: 0;
+}
