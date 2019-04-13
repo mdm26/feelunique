@@ -27,7 +27,7 @@ $(function(){
     
     
 	console.log($(window).height())
-	$(window).on('scroll',function(){ 
+	$(window).scroll(function(){ 
 		debug;
    		let scollH = $(".center_banner").height() + $(".center_brands").height();
    		let gunTiao = document.documentElement.scrollTop || document.body.scrollTop;
@@ -37,7 +37,7 @@ $(function(){
    				position : "fixed",
 				right: 0,
 			    top: ".32rem",
-			    overflow: "auto",
+			    overflow: "auto"
    			});
 		};
     });
